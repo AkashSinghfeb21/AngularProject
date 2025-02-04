@@ -1,0 +1,17 @@
+node -v//node js version
+
+npm -v //node package manager version
+
+npm install -g @angular/cli //command to install angularjs
+
+ng -v //check version of angularjs
+
+ng new photoEditor //ng new appname command to create new app for angularjs
+
+cd photoEditor  //to change directory to appname folder
+
+ng serve //to run the app
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned //optional command use this in powershell opened as admin to give credentials to current CurrentUser
+
+http://localhost:4200/ //if everything succesfully worked this url will display in cmd/terminal 

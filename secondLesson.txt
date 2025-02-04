@@ -1,0 +1,29 @@
+The first step of the setup is to install the Angular CLI (command-line interface), which is used to perform various Angular operations, such as creating and running apps, testing and deploying.
+
+Complete to install the Angular CLI using the npm install command
+
+npm install -g @angular/cli
+
+To create a new Angular app, we need to use the command ng new and provide it the name for our new app. This creates all the necessary files and folders for an Angular app.
+
+ 
+
+Fill in the blanks to create a new Angular app called photoEditor
+
+ng new photoEditor
+
+To run the app and launch it in a browser, you need to navigate to the newly created project folder and run ng serve --open
+
+cd photoEditor
+ng serve //open
+
+Great job! Now you know how to create and run your first Angular app!
+
+You learned that:
+
+ 
+
+⭐ You need to install Angular CLI to set up Angular in your local environment
+
+
+⭐ The Angular CLI creates all the necessary files and folders for an Angular app
