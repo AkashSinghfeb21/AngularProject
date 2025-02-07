@@ -1,0 +1,50 @@
+Components are the most basic building blocks of an Angular app’s user interface (UI).
+
+Each post on a social media app looks and behaves the same, because they are components.
+
+Angular components are reusable pieces of code.
+
+An Angular app has a root component, which is the parent of all the other components used to build the page. 
+The root component is automatically created with a new Angular project.
+
+Here is the app.component.ts file, which defines a root component called AppComponent
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent { }
+
+
+The @Component decorator specifies metadata for the component class, including the HTML and CSS templates.
+
+Did you notice the selector property? it's used to reference the component later as an HTML tag.
+
+For example, the component with the selector 'app-root' can be called using the HTML tag &lt;app-root /&gt; in the index.html file
+
+
+
+<body>
+  <app-root />
+</body>
+
+Anytime Angular encounters the element &lt;app-root /&gt; in an HTML template, it'll embed the corresponding component.
+
+The templateUrl property links the corresponding HTML file of the component. 
+
+For example, let's add some sample HTML markup into the linked file
+
+Great job! Now you know what a component is: a class with the @Component decorator, a selector, 
+HTML template and CSS styles. Here’s a recap of the root AppComponent code:
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  
+}
