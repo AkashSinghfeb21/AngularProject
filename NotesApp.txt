@@ -1,0 +1,11 @@
+It's time to practice! In this course, you'll build a Notes app. 
+
+You'll do this step by step, at the end of every module. Let's get started with step 1.
+
+To create the project on your local machine, run the ng new command and provide a name for your app.
+
+ng new NotesApp
+
+Running the code shows the default <b>Hello from Angular!</b> message.
+
+Let's change the message to My Notes App in the app.component.html file

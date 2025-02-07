@@ -1,0 +1,12 @@
+The source files reside in the src/ subfolder.
+
+
+index.html is the main HTML of the app
+main.ts is the entry point of your app and runs when your app is launched
+styles.css is the main CSS file, which includes the styles for your app
+
+The app folder includes app.component.ts and app.component.html file. 
+They represent the root component of our project.
+
+ 
+Open the project and explore the file structure
